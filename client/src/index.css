@@ -1,0 +1,308 @@
+/* Add CSS stylesheet */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.banner {
+    margin: 0;
+}
+.nav {
+    background-color: #f8f9f9;
+    box-shadow: 0px 1px 5px;
+    list-style-type: none;
+    width: 100%;
+    margin: 0;
+    font-size: 30px;
+    display: inline-block;
+    position: fixed;
+    z-index: 1000;
+}
+
+.nav li {
+    padding: 25px;
+    float: left;
+}
+.nav .link:hover {
+    cursor: pointer;
+}
+
+.profile-link:hover {
+    cursor: pointer;
+    background-color: darkgray;
+}
+
+.nonHighlight:hover {
+    background-color: darkgray !important;
+}
+
+#search-bar {
+    margin-left: 50px;
+    width: 200px;
+}
+
+#banner-title {
+    font-weight: bold;
+    margin-left: 50px;
+}
+
+#questions-table,
+th {
+    width: 100%;
+    border-collapse: collapse;
+}
+#questions-table th {
+    padding: 10px;
+    border-spacing: 50px;
+}
+
+#questions-table td {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#new-question-button {
+    background-color: #165a92;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 10px;
+}
+.main {
+    padding-top: 100px;
+}
+.col1 {
+    display: block;
+    padding-left: 10px;
+    font-weight: bold;
+}
+
+.question-title {
+    display: block;
+    margin-bottom: 5px;
+    cursor: pointer;
+    color: blue;
+}
+
+.question-summary {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.question-title:hover {
+    color: darkblue;
+}
+
+.tags {
+    display: inline-block;
+    background-color: gray;
+    border-radius: 10px;
+    padding: 5px 10px 5px 10px;
+    margin-right: 20px;
+    color: white;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.col3 {
+    display: block;
+    text-align: right;
+    padding-right: 10px;
+    font-weight: bold;
+}
+
+#ask-new-question h2,
+p,
+button {
+    margin-left: 50px;
+}
+
+#ask-new-question textarea {
+    width: 90%;
+    height: 150px;
+    margin-left: 50px;
+    margin-bottom: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    resize: none;
+    white-space: pre-wrap;
+}
+
+#new-question-error,
+#new-ans-error {
+    text-align: center;
+    color: red;
+}
+
+.question-instruction,
+.ans-instruction {
+    font-style: italic;
+}
+
+#post-question-button,
+#post-answer-button,
+#register-button,
+#login-button,
+.button {
+    background-color: #165a92;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.gray-button {
+    background-color: gray;
+}
+
+#answers-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#answers-table td {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 35px;
+}
+
+#post-ans-button {
+    background-color: #165a92;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+#post-new-answer h2,
+p,
+button {
+    margin-left: 50px;
+}
+
+#post-new-answer textarea {
+    width: 90%;
+    height: 300px;
+    margin-left: 50px;
+    margin-bottom: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    resize: none;
+    white-space: pre-wrap;
+}
+
+#tags-table-heading,
+#tags-table {
+    width: 100%;
+    border-spacing: 50px 10px;
+}
+
+#tags-table td {
+    border: 1px solid #000000;
+    text-align: center;
+    height: 200px;
+}
+
+.tagName,
+.question-count {
+    display: block;
+    margin: 30px;
+}
+
+.tagName {
+    color: #0281e8;
+    text-decoration: underline;
+    cursor: pointer;
+    font-size: 25px;
+}
+
+.tagName:hover {
+    color: darkblue;
+}
+
+#register-page,
+#login-page,
+#welcome-page {
+    margin-left: 50px;
+}
+
+#register-button,
+#login-button,
+.button {
+    margin-left: 0px;
+    margin-top: 10px;
+}
+
+#prev-button,
+#next-button {
+    background-color: darkblue;
+    cursor: pointer;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+#prev-button-disable,
+#next-button-disable {
+    background-color: darkgray;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.vote-icon {
+    cursor: pointer;
+}
+
+.comment-textarea {
+    width: 90%;
+    height: 50px;
+    margin-left: 50px;
+    margin-bottom: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    resize: none;
+    white-space: pre-wrap;
+}
+
+h1.profile,
+h3.profile {
+    margin-left: 30px;
+}
+
+#profile-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.sidebar {
+    border: 1px solid #000;
+    margin-right: 50px;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.sidebar:hover {
+    background-color: darkgray;
+}
+
+.profile-button {
+    background-color: green;
+    cursor: pointer;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.profile-button-red {
+    background-color: red;
+    cursor: pointer;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
